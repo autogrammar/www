@@ -1,3 +1,12 @@
 cache_*.json
 .DS_Store
 *.log
+
+# Repository-local worktrees and operational state
+/.worktrees/
+/.subactor/leases/
+/.subactor/sessions/
+/.subactor/recovery/
+/.subactor/receipts/
+/.subactor/cache/
+/.subactor/snapshots/
